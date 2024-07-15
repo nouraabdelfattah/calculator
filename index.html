@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+<div class="header">
+<p id="show-screen"></p>
+<p id="op"></p>
+
+</div>
+
+<div class="items">
+<div class="numbers">
+    <button id="btn"onclick=" takeValue(7)">7</button>
+    <button id="btn"onclick=" takeValue(8)">8</button>
+    <button id="btn" onclick="takeValue(9)">9</button>
+    <button id="btn" onclick="takeOpertor('+')"class="iqons">+</button>
+    <button id="btn"onclick=" takeValue(4)">4</button>
+    <button id="btn" onclick="takeValue(5)">5</button>
+    <button id="btn" onclick="takeValue(6)">6</button>
+    <button id="btn" onclick="takeOpertor('-')" class="iqons ">-</button>
+    <button id="btn" onclick="takeValue(1)">1</button>
+    <button  id="btn"onclick="takeValue(2)">2</button>
+    <button  id="btn"onclick="takeValue(3)">3</button>
+    <button id="btn"onclick="takeOpertor('x')" class="iqons">x</button>
+        
+        <button class="delete-all" onclick="deleteAll()">C</button>
+        <button id="btn" onclick=" takeValue('0')">0</button>
+        <button id="btn"  onclick="takeOpertor('/')"class="iqons ">/</button>
+        <button id="btn" onclick="takeOpertor('Mod')"class="percent iqons">Mod</button>
+       
+        <button id="btn"  onclick="calculate()"class="result ">=</button>
+        <button id="btn" onclick="takeValue('.')" >.</button>
+        
+        <button id="btn"onclick="takeOpertor('^')" class="iqons"><i class="fas fa-superscript"></i></button>
+       
+       
+
+        
+</div>
+</div>
+    </div>
+   <script src="script.js"></script> 
+</body>
+</html>
